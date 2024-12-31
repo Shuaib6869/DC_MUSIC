@@ -56,9 +56,9 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     elif 70 <= umm < 80:
         bar = "———————🤪——"
     elif 80 <= umm < 95:
-        bar = "TEAMPURVI"
+        bar = "𝗩𝗜𝗟𝗟𝗔𝗜𝗡"
     else:
-        bar = "—🇧 ᴀʙᴜʟ ♧︎︎︎——♡"
+        bar = "—𝗩𝗜𝗟𝗟𝗔𝗜𝗡 ♧︎︎︎——♡"
 
     buttons = [
         [
@@ -76,10 +76,10 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
       [
             InlineKeyboardButton(
-                text="❄️ ❍ᴡɴᴇꝛ ❄️", url="https://t.me/mr_babul0",
+                text="❄️ ❍ᴡɴᴇꝛ ❄️", url="https://t.me/LEGEND_HU_BSDK",
             ),
             InlineKeyboardButton(
-                text="🍬 sᴜᴘᴘᴏꝛᴛ 🍬", url="https://t.me/+buVXCEkFdfBlYTk9",
+                text="🍬 sᴜᴘᴘᴏꝛᴛ 🍬", url="https://t.me/pardhan_ki_haveli",
             )
         ],
          [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -99,10 +99,10 @@ def stream_markup(_, videoid, chat_id):
          ],
         [
             InlineKeyboardButton(
-                text="❄️ ❍ᴡɴᴇꝛ ❄️", url="https://t.me/ll_THUNDER_lll",
+                text="❄️ ❍ᴡɴᴇꝛ ❄️", url="https://t.me/LEGEND_HU_BSDK",
             ),
             InlineKeyboardButton(
-                text="🍬 sᴜᴘᴘᴏꝛᴛ 🍬", url="https://t.me/CRAZY_OP_02",
+                text="🍬 sᴜᴘᴘᴏꝛᴛ 🍬", url="https://t.me/VILLAIN_MUSIC_UPDATE",
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
