@@ -7,15 +7,15 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", 27838385))
+API_ID = int(getenv("API_ID", 26372066))
 API_HASH = getenv("API_HASH")
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME", "ll_THUNDER_lll")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "NoT_YoUr_ViLLain")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME", "DCxMUSICxBOT")
+BOT_USERNAME = getenv("BOT_USERNAME", "ViLLaiN_Music_bot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME")
 # ---------------------------------------------------------
@@ -30,10 +30,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002060224175"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002265875332"))
 
 # Get this value from @PURVI_HELP_BOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7445883361))
+OWNER_ID = int(getenv("OWNER_ID", 7518000176))
 
 
 ## Fill these variables if you're deploying on heroku.
@@ -51,8 +51,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/PURVI_SUPPORT")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+buVXCEkFdfBlYTk9")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/VILLAIN_MUSIC_UPDATE")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/pardhan_ki_haveli")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
